@@ -5,7 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.context.annotation.Bean;
 
-
+//data
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

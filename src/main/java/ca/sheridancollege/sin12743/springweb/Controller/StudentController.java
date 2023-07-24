@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 
-@RestController
+@RestController//repo
 @RequestMapping("/students")
 public class StudentController {
     private final StudentRepo stuRepo;

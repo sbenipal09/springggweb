@@ -4,3 +4,4 @@ INSERT INTO Student (name) VALUES
                                       ('Simer'),
                                       ('Yashi'),
                                       ('Nevish');
+--data

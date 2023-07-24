@@ -46,6 +46,7 @@ public class StudentRepo {
 
         jdbc.update(query, parameters);
     }
+    //comment
     public void updateStudent(Student student) {
         MapSqlParameterSource parameters = new MapSqlParameterSource();
         String query = "UPDATE STUDENT SET name=:name WHERE id=:id";
@@ -55,5 +56,4 @@ public class StudentRepo {
         jdbc.update(query, parameters);
     }
     }
-
 
